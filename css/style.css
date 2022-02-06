@@ -47,19 +47,17 @@ body {
 
 .hero-image {
   display:inline-block;
-  float:left;
   background-position:top;
   background-repeat: no-repeat;
   width: 6in;
   margin-left: 500px;
-  margin-top: 0%;
 }
 
 .hero-h2 {
   display:inline-block;
   float:right;
-  top: 50%;
-  left: 50%;
+  width: 40px;
+  margin-top: 40px;
   color: #AEA3D9;
   margin-right: 60px;
   font-family: 'Work Sans', sans-serif;
@@ -70,11 +68,9 @@ body {
   display:inline-block; 
   float:left;
   text-align: left;
-  top:0%;
-  left: 50%;
   color: #AEA3D9;
   margin-left:350px;
-  margin-top: 250px;
+  margin-top: 400px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 100;
   font-size: 40px;
@@ -114,33 +110,36 @@ body {
 
 
 .mailicon1 {
-    float:left;
-    margin-left:350px;
-    margin-top: 30px;
-    display:inline-block;
+   float:left;
+   margin-left: 450px;
 }
 
 .mailicon2 {
-  display:inline-block;
     float:left;
-    margin-top: 60px;
+    margin-left: 450px;  
+    padding-right: 0;
+   
 }
 
 .email1 {
-  display:inline-block;
-  float:left;
   list-style-type: none;
-  margin-top: 30px;
+  margin: 0;
+  padding-left: 0;
 }
 
 .email2 {
-  display:inline-block;
-  float:left;
   list-style-type: none;
-  margin-top: 60px;
+  margin: 0;
+  padding-left: 0;
 }
 
+.block1 {
+  display: inline-block;
+}
 
+.block2 {
+  display: inline-block;
+}
 
 .imgdoc {
   float:right;
